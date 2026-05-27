@@ -6,9 +6,18 @@
 
 [![Discord](https://img.shields.io/badge/Discord-rejoindre-5865F2?logo=discord&logoColor=white)](https://discord.gg/xeinoria)
 [![Site](https://img.shields.io/badge/Site-norath.fr-1f6feb?logo=icloud&logoColor=white)](https://norath.fr)
+[![Feedback](https://img.shields.io/badge/Bug%20%2F%20Id%C3%A9e-xeinoria--feedback-2ea44f?logo=github)](https://github.com/Xeinoria-Studio/xeinoria-feedback/issues/new/choose)
 [![License](https://img.shields.io/badge/Licence-CC%20BY--NC--SA%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 </div>
+
+---
+
+> ### 🇫🇷 Un bug ? Une idée ? Une question ?
+> **Tout passe par [`xeinoria-feedback`](https://github.com/Xeinoria-Studio/xeinoria-feedback/issues/new/choose)** — c'est le seul endroit où ouvrir une issue, peu importe le serveur ou le composant. Les autres dépôts ont leurs issues désactivées pour éviter la dispersion. Les **pull requests techniques** restent sur le dépôt concerné.
+>
+> ### 🇬🇧 A bug? An idea? A question?
+> **Everything goes through [`xeinoria-feedback`](https://github.com/Xeinoria-Studio/xeinoria-feedback/issues/new/choose)** — the single place to open an issue, no matter the server or component. Other repos have issues disabled to avoid scattering. **Technical pull requests** still belong to the repo they touch.
 
 ---
 
@@ -45,6 +54,7 @@ Xeinoria est un **réseau Minecraft Paper/Velocity** propulsé par [Skript](http
 |---|---|
 | [`xeinoria-dev-env`](https://github.com/Xeinoria-Studio/xeinoria-dev-env) | **Environnement de dev local** : image Docker Paper + plugins extras, tests automatiques, scripts de bootstrap. Idéal pour développer un Skript sans toucher la prod. |
 | [`xeinoria-web`](https://github.com/Xeinoria-Studio/xeinoria-web) | Frontend web ([norath.fr](https://norath.fr)). |
+| [`xeinoria-feedback`](https://github.com/Xeinoria-Studio/xeinoria-feedback) | **Point d'entrée unique** pour bugs / idées / questions des joueurs. |
 
 ### 🔄 Comment ça déploie
 
@@ -100,6 +110,7 @@ Xeinoria is a **French-speaking Minecraft network** running Paper back-ends behi
 |---|---|
 | [`xeinoria-dev-env`](https://github.com/Xeinoria-Studio/xeinoria-dev-env) | **Local development environment**: Docker Paper image, extra plugins, automated tests, bootstrap scripts. The right place to iterate on a Skript without touching production. |
 | [`xeinoria-web`](https://github.com/Xeinoria-Studio/xeinoria-web) | Web frontend ([norath.fr](https://norath.fr)). |
+| [`xeinoria-feedback`](https://github.com/Xeinoria-Studio/xeinoria-feedback) | **Single entry point** for player bug reports / ideas / questions. |
 
 ### 🔄 Deployment flow
 
