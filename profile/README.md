@@ -31,7 +31,7 @@ Cette organisation regroupe tout le code et la configuration du réseau : script
 | [`xeinoria-server-hub`](https://github.com/Xeinoria-Studio/xeinoria-server-hub) | Scripts spécifiques au Hub (lobby, NPC, sélecteur de serveurs). |
 | [`xeinoria-server-survie`](https://github.com/Xeinoria-Studio/xeinoria-server-survie) | Scripts spécifiques à la Survie (claims, export carte, gameplay). |
 | [`xeinoria-server-crea`](https://github.com/Xeinoria-Studio/xeinoria-server-crea) | Scripts spécifiques au Créatif (plots, build tools). |
-| [`xeinoria-server-nwland`](https://github.com/Xeinoria-Studio/xeinoria-server-nwland) | Scripts spécifiques à Norath World (events temporaires). |
+| [`xeinoria-server-nwland`](https://github.com/Xeinoria-Studio/xeinoria-server-nwland) | Scripts spécifiques à Nawak Land. |
 | [`xeinoria-server-test`](https://github.com/Xeinoria-Studio/xeinoria-server-test) | Bac à sable des devs. |
 
 ### Configuration et infra
