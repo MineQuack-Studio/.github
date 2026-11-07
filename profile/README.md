@@ -1,51 +1,53 @@
 <div align="center">
 
-# Xeinoria Studio
+# MineQuack Studio
 
-<sub><i>Réseau Minecraft francophone — un seul cluster, plusieurs mondes.</i></sub>
+<sub><i>Réseau Minecraft francophone : un hub plein d'attractions, plusieurs mondes… et beaucoup de canards.</i></sub>
 
-[Discord](https://discord.gg/8gFKV3Pr7E) ·
-[Site](https://norath.fr) ·
-[Signaler un bug / Proposer une idée](https://github.com/Xeinoria-Studio/xeinoria-feedback/issues/new/choose) ·
+[Site](https://www.minequack.fr) ·
+[Discord](https://discord.gg/DuaQ7aZywr) ·
+[Carte de la survie](https://map.minequack.fr) ·
 [Licence CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Java :** `minequack.fr` · **Bedrock :** `minequack.fr`, port `19132`
 
 </div>
 
 ---
 
 > **Un bug ? Une idée ? Une question ?**
-> Tout passe par [`xeinoria-feedback`](https://github.com/Xeinoria-Studio/xeinoria-feedback/issues/new/choose) pour ouvrir une issue, peu importe le serveur ou le composant.
+> En jeu : `/report`, `/bug` ou `/suggestion`. Sinon, sur le [Discord](https://discord.gg/DuaQ7aZywr).
 
 ---
 
-Xeinoria est un réseau Minecraft Paper/Velocity propulsé par [Skript](https://skriptlang.org) et des serveurs minecraft backend sous [Paper](https://papermc.io/).
-Cette organisation regroupe tout le code et la configuration du réseau : scripts gameplay, configs serveurs, environnement de dev, frontend web, infra.
+MineQuack est un réseau Minecraft [Paper](https://papermc.io/) / [Velocity](https://papermc.io/software/velocity) :
+un hub avec ses stands et ses manèges, une survie, un créatif, Nawak Land et des événements.
+Presque tout le gameplay maison est écrit en [Skript](https://skriptlang.org).
 
-## Carte des dépôts
+Cette organisation regroupe le code et la configuration du réseau. Les dépôts sont privés,
+réservés à l'équipe.
 
-### Scripts gameplay (Skript)
+## Les dépôts
 
-| Dépôt | Rôle |
-|---|---|
-| [`xeinoria-scripts-global`](https://github.com/Xeinoria-Studio/xeinoria-scripts-global) | Scripts partagés par tous les serveurs (friends, party, vanish, claim-bluemap…). Inclus comme sous-module dans chaque serveur. |
-| [`xeinoria-server-hub`](https://github.com/Xeinoria-Studio/xeinoria-server-hub) | Scripts spécifiques au Hub (lobby, NPC, sélecteur de serveurs). |
-| [`xeinoria-server-survie`](https://github.com/Xeinoria-Studio/xeinoria-server-survie) | Scripts spécifiques à la Survie (claims, export carte, gameplay). |
-| [`xeinoria-server-crea`](https://github.com/Xeinoria-Studio/xeinoria-server-crea) | Scripts spécifiques au Créatif (plots, build tools). |
-| [`xeinoria-server-nwland`](https://github.com/Xeinoria-Studio/xeinoria-server-nwland) | Scripts spécifiques à Nawak Land. |
-| [`xeinoria-server-test`](https://github.com/Xeinoria-Studio/xeinoria-server-test) | Bac à sable des devs. |
-
-### Configuration et infra
+### Scripts (Skript)
 
 | Dépôt | Rôle |
 |---|---|
-| [`xeinoria-server-configs`](https://github.com/Xeinoria-Studio/xeinoria-server-configs) | Config Paper de chaque serveur (`server.properties`, `bukkit.yml`, `spigot.yml`, icônes, etc.). |
-| [`xeinoria-proxy`](https://github.com/Xeinoria-Studio/xeinoria-proxy) | Config du proxy Velocity : `velocity.toml`, MiniMOTD, Maintenance, icônes, traductions. |
-| [`xeinoria-redis`](https://github.com/Xeinoria-Studio/xeinoria-redis) | Stack Redis (`docker-compose`) utilisée pour l'IPC inter-serveurs via SkRedis. |
+| [`minequack-scripts-global`](https://github.com/MineQuack-Studio/minequack-scripts-global) | Scripts communs à tous les serveurs. |
+| [`minequack-server-hub`](https://github.com/MineQuack-Studio/minequack-server-hub) | Le hub : stands, attractions, quêtes. |
+| [`minequack-server-survie`](https://github.com/MineQuack-Studio/minequack-server-survie) | La survie. |
+| [`minequack-server-crea`](https://github.com/MineQuack-Studio/minequack-server-crea) | Le créatif. |
+| [`minequack-server-nwland`](https://github.com/MineQuack-Studio/minequack-server-nwland) | Nawak Land. |
+| [`minequack-server-test`](https://github.com/MineQuack-Studio/minequack-server-test) | Bac à sable. |
 
-### Outillage
+### Configuration et outils
 
 | Dépôt | Rôle |
 |---|---|
-| [`xeinoria-dev-env`](https://github.com/Xeinoria-Studio/xeinoria-dev-env) | Environnement de dev local : image Docker Paper + plugins extras, tests automatiques, scripts de bootstrap. Idéal pour développer un Skript sans toucher la prod. |
-| [`xeinoria-feedback`](https://github.com/Xeinoria-Studio/xeinoria-feedback) | Point d'entrée unique pour bugs, idées et questions des joueurs. |
-
+| [`minequack-server-configs`](https://github.com/MineQuack-Studio/minequack-server-configs) | Réglages Paper de chaque serveur. |
+| [`minequack-proxy`](https://github.com/MineQuack-Studio/minequack-proxy) | Réglages du proxy Velocity. |
+| [`minequack-redis`](https://github.com/MineQuack-Studio/minequack-redis) | Redis, pour faire parler les serveurs entre eux. |
+| [`minequack-dev-env`](https://github.com/MineQuack-Studio/minequack-dev-env) | Environnement de développement local. |
+| [`minequack-launcher`](https://github.com/MineQuack-Studio/minequack-launcher) | Lanceur avec les mods préinstallés. |
+| [`minequack-feedback`](https://github.com/MineQuack-Studio/minequack-feedback) | Anciens signalements (remplacés par `/report` en jeu). |
+| [`minequack-web`](https://github.com/MineQuack-Studio/minequack-web) | Ancien site web. |
